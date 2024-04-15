@@ -1,0 +1,21 @@
+.frame {
+  display: block;
+  text-align: center;
+  width: 143px;
+  height: 143px;
+  box-shadow: inset 3px 3px 6px #eee5e9;
+  border-radius: 20px;
+  opacity: 1;
+  backdrop-filter: blur(20px);
+  padding: 17px 10px;
+  color: #fceff9;
+  cursor: pointer;
+  font-size: 15px;
+}
+.frame .svg {
+  text-align: center;
+}
+.frame p {
+  margin-top: 11px;
+  text-align: center;
+}

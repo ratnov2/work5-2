@@ -1,0 +1,21 @@
+.section {
+  background: transparent
+    linear-gradient(140deg, #fff7fc66 0%, #ffffff66 0%, #ffffff00 100%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: inset 3px 3px 6px #eee5e9;
+  border-radius: 30px;
+  opacity: 1;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  padding: 14px 13.5px 19px 14px;
+  margin-bottom: 40px;
+}
+.section  img {
+  border-radius: 30px;
+}
+.section .title {
+  margin-top: 11px;
+  color: #fceff9;
+  font-size: 35px;
+  font-weight: 900;
+}

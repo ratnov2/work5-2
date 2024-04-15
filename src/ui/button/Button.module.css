@@ -1,0 +1,15 @@
+.default {
+  color: #fff7fc;
+  font-size: 25px;
+  background: #00cc99 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 20px #08070880;
+  border-radius: 30px;
+}
+.auth {
+  padding: 11px 45px 11px 46px;
+}
+.result {
+  background: #fceff9;
+  padding: 15px 36px 14px 36px;
+  color: #080708;
+}
