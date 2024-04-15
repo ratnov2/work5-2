@@ -4,7 +4,6 @@ import img from "../../assets/img1.png";
 import { GallerySvg } from "../../svg-components/GallerySvg";
 import { Frame } from "./ui/Frame";
 import { CameraSvg } from "../../svg-components/CameraSvg";
-import { Link } from "react-router-dom";
 import img3 from "../../assets/img3.png";
 import { motion } from "framer-motion";
 import { FC, useContext } from "react";

@@ -1,14 +1,7 @@
 import React, { createContext, useEffect, useState } from "react";
-import {
-  Location,
-  useLocation,
-  useNavigate,
-  useNavigation,
-  useRoutes,
-} from "react-router-dom";
+import { useLocation, useNavigate, useRoutes } from "react-router-dom";
 import { TransitionGallery } from "./ui/transition-slide/TransitionGallery";
 import { Gallery } from "./screens/gallery/Gallery";
-import { Auth } from "./screens/auth/Auth";
 import { PhotoResult } from "./screens/photo-result/PhotoResult";
 import { Upload } from "./screens/upload/Upload";
 import { AnimatePresence } from "framer-motion";
@@ -45,6 +38,7 @@ function App() {
     if (locate.currLocate) {
       navigation(locate.currLocate);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [locate]);
 
   const router = useRoutes([

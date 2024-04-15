@@ -1,6 +1,5 @@
-import React, { FC, ReactNode, useState } from "react";
+import  { FC, ReactNode } from "react";
 import { motion } from "framer-motion";
-import { Location, useLocation } from "react-router-dom";
 
 export const TransitionResult: FC<{
   children: ReactNode;

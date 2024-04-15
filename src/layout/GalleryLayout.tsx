@@ -1,17 +1,15 @@
 import { FC, ReactNode, useState } from "react";
 import style from "./GalleryLayout.module.css";
 import { SingInButton } from "../ui/sing-in-button/SingInButton";
-import { Link } from "react-router-dom";
 import { MyPortal } from "../ui/portal/Portal";
 import { Auth } from "../screens/auth/Auth";
-import { AnimatePresence } from "framer-motion";
 
-interface GalleryLayout {
+interface IGalleryLayout {
   children: ReactNode;
   isAuth?: boolean;
 }
 
-export const GalleryLayout: FC<GalleryLayout> = ({
+export const  GalleryLayout: FC<IGalleryLayout> = ({
   children,
   isAuth = false,
 }) => {

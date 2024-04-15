@@ -1,6 +1,5 @@
 import { FC, useContext } from "react";
 import style from "./ImageSection.module.css";
-import { Link } from "react-router-dom";
 import { LocateContext } from "../../../App";
 
 interface IImageSection {

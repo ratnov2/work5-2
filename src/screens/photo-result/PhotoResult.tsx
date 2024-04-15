@@ -1,7 +1,6 @@
 import style from "./PhotoResult.module.css";
-import img from "../../assets/img2.png";
+import img1 from "../../assets/img2.png";
 import { Button } from "../../ui/button/Button";
-import { useNavigate, useNavigation } from "react-router-dom";
 import { useContext } from "react";
 import { LocateContext } from "../../App";
 
@@ -12,7 +11,7 @@ export const PhotoResult = () => {
   };
   return (
     <div className={style.section}>
-      <img src={img} />
+      <img src={img1} alt=""/>
       <Button
         onClick={onLink}
         styleType="auth"

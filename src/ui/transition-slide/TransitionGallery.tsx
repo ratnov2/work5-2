@@ -1,6 +1,5 @@
-import React, { FC, ReactNode, useState } from "react";
+import React, { FC, ReactNode } from "react";
 import { motion } from "framer-motion";
-import { useLocation } from "react-router-dom";
 
 export const TransitionGallery: FC<{
   children: ReactNode;
@@ -9,7 +8,7 @@ export const TransitionGallery: FC<{
     currLocate: string | null;
   };
 }> = ({ children, locate }) => {
-  
+
   return (
     <motion.div
       className="page"

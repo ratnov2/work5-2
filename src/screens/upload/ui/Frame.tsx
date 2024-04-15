@@ -1,6 +1,5 @@
 import { FC, ReactNode, useContext } from "react";
 import style from "./Frame.module.css";
-import { Link } from "react-router-dom";
 import { LocateContext } from "../../../App";
 
 interface IFrame {

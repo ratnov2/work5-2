@@ -1,4 +1,4 @@
-import { FC, ReactNode, useEffect } from "react";
+import { FC, ReactNode } from "react";
 import ReactDOM from "react-dom";
 import { AnimatePresence, motion } from "framer-motion";
 
