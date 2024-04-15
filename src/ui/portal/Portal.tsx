@@ -24,7 +24,10 @@ export const MyPortal: FC<{ children: ReactNode; showPortal: boolean }> = ({
             opacity: 0,
             transition: { duration: 0.2 },
           }}
-          style={{ backdropFilter: "blur(50px)" }}
+          style={{
+            backdropFilter: "blur(50px)",
+            WebkitBackdropFilter: "blur(50px)",
+          }}
         >
           {children}
         </motion.div>
